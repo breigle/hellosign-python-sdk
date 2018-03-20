@@ -310,7 +310,7 @@ class HSClient(object):
             "page": page
         }
         if page_size is not None:
-            parameters['paze_size'] = page_size
+            parameters['page_size'] = page_size
 
         if ux_version is not None:
             parameters['ux_version'] = ux_version
